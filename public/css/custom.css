@@ -1,0 +1,21 @@
+/* sample component */
+.sample-component {
+  @apply .p-1;
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+.gray-logo {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
